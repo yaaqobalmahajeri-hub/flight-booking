@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>خطوط الطائر الأسود الجوية</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <video autoplay muted loop class="video-background">
+    <source src="12149885_360_640_60fps.mp4" type="video/mp4">
+    متصفحك لا يدعم وسم الفيديو.
+  </video>
+
+  <header>
+    <img src="bird-logo-clipart-xl.png" alt="BlackBird Logo" width="60">
+    <h1>خطوط الطائر الأسود الجوية</h1>
+    <p>احجز رحلتك بأمان وراحة</p>
+  </header>
+
+  <nav>
+    <a href="#">الرئيسية</a>
+    <a href="#booking">حجز رحلة</a>
+    <a href="#flights">جدول الرحلات</a>
+    <a href="#destinations">وجهاتنا</a>
+    <a href="#contact">تواصل معنا</a>
+  </nav>
+
+  <section id="booking" class="content-section">
+    <h2>احجز رحلتك</h2>
+    <form>
+        <label for="from">من:</label>
+        <select id="from" name="from">
+          <option value="">اختر المدينة</option>
+          <option>نيويورك</option>
+          <option>لندن</option>
+          <option>دبي</option>
+          <option>صنعاء</option>
+        </select>
+
+        <label for="to">إلى:</label>
+        <select id="to" name="to">
+          <option value="">اختر المدينة</option>
+          <option>نيويورك</option>
+          <option>لندن</option>
+          <option>دبي</option>
+          <option>صنعاء</option>
+        </select>
+        <br>
+        <label for="departure">تاريخ المغادرة:</label>
+        <input type="date" id="departure" name="departure">
+
+        <label for="return">تاريخ العودة:</label>
+        <input type="date" id="return" name="return">
+        <br>
+        <label for="class">الدرجة:</label>
+        <select id="class" name="class">
+          <option>السياحية</option>
+          <option>رجال الأعمال</option>
+          <option>الدرجة الأولى</option>
+        </select>
+
+        <label for="passengers">عدد الركاب:</label>
+        <input type="number" id="passengers" name="passengers" min="1" value="1">
+        <br><br>
+        <input type="submit" value="ابحث عن الرحلات">
+    </form>
+  </section>
+
+  <section id="flights" class="content-section">
+      <h2>الرحلات المتاحة</h2>
+      <table>
+        <tr>
+          <th>رقم الرحلة</th>
+          <th>من</th>
+          <th>إلى</th>
+          <th>المغادرة</th>
+          <th>الوصول</th>
+          <th>السعر</th>
+        </tr>
+        <tr>
+          <td>BB101</td>
+          <td>نيويورك</td>
+          <td>لندن</td>
+          <td>08:00 صباحًا</td>
+          <td>08:00 مساءً</td>
+          <td>$850</td>
+        </tr>
+        <tr>
+          <td>BB205</td>
+          <td>دبي</td>
+          <td>صنعاء</td>
+          <td>02:00 مساءً</td>
+          <td>04:30 مساءً</td>
+          <td>$300</td>
+        </tr>
+        <tr>
+          <td>BB312</td>
+          <td>لندن</td>
+          <td>دبي</td>
+          <td>09:00 صباحًا</td>
+          <td>05:00 مساءً</td>
+          <td>$720</td>
+        </tr>
+      </table>
+  </section>
+
+  <section id="destinations" class="content-section">
+      <h2>وجهاتنا الرائعة </h2>
+      <p>استكشف بعض الوجهات المذهلة التي نطير إليها.</p>
+      
+      <div class="gallery-container">
+          <img src="ny.webp" alt="مدينة نيويورك">
+          <img src="london.jpg" alt="مدينة لندن">
+          <img src="dubi.jpeg" alt="مدينة دبي">
+          <img src="sana'a.jpg" alt="مدينة صنعاء">
+      </div>
+  </section>
+
+  <section id="audio-player" class="content-section">
+      <h2>استرخِ مع موسيقى السفر </h2>
+      <p>استمع إلى موسيقى هادئة أثناء التخطيط لرحلتك القادمة.</p>
+      <audio controls>
+          <source src="passenger-sad-solo-piano-instrumental-249444.mp3" type="audio/mpeg">
+          متصفحك لا يدعم مشغل الصوت.
+      </audio>
+  </section>
+  
+
+
+
+  <footer id="contact">
+  <p>BlackBird Airlines © 2025 - Developed by Eng. Yaaqob Almahajeri</p>
+    <p>Email: support@blackbird.com   |  Tel:  (+1)-555-123-457</p>
+  </footer>
+
+</body>
+</html>
